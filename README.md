@@ -244,7 +244,7 @@ def custom_standardization(input_data):
     return tf.strings.regex_replace(stripped_html,'[%s]' % re.escape(string.punctuation),'')
 ```
 
-After standardizing our text we move to the tokinization and vectorization phase. This tokenizes the words and transform the whole text into a series of integers.
+After standardizing our text we move to the tokenization and vectorization phase. This tokenizes the words and transform the whole text into a series of integers.
 
 
 ```python
