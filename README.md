@@ -5,10 +5,10 @@ However, thanks to NLP (Natural Language Processing) and machine learning, text 
 In this case, I will train a model with the help of Tensorflow to classify whether a review is positive or negative. To train the model, I will use free-to-use 'Disneyland reviews' -dataset from Kaggle. Link: https://www.kaggle.com/arushchillar/disneyland-reviews
 
 To do the sentiment analysis, I will have to:
-    - Create directory structure including sample files from the data.
-    - Train the neural network with the extracted data.
-    - Validate the operation of your trained model.
-Let's get started.
+    - Create directory structure including sample files from the data.  
+    - Train the neural network with the extracted data.  
+    - Validate the operation of your trained model.  
+Let's get started.  
 
 First, import all the necessary libraries. Read the csv file DisneylandReviews.csv into a data structure so we can handle it later.
 
