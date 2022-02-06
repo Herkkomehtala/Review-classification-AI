@@ -7,7 +7,7 @@ In this case, I will train a model with the help of Tensorflow to classify wheth
 To do the sentiment analysis, I will have to:  
     - Create directory structure including sample files from the data.  
     - Train the neural network with the extracted data.  
-    - Validate the operation of your trained model.  
+    - Validate the operation of the trained model.  
 Let's get started.  
 
 First, import all the necessary libraries. Read the csv file DisneylandReviews.csv into a data structure so we can handle it later.
@@ -34,8 +34,6 @@ review_data = pd.read_csv('data_files\DisneylandReviews.csv', delimiter=",")
 review_data.drop(["Branch", "Reviewer_Location", "Year_Month", "Review_ID"], inplace=True, axis=1)
 review_data
 ```
-
-
 
 
 <div>
