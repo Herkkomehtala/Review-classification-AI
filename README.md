@@ -456,7 +456,7 @@ plt.show()
     
 
 
-Now we can create some test data to verify that your model works!
+Now we can create some test data to verify that the model works!
 
 
 ```python
