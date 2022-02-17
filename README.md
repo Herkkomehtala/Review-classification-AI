@@ -1,4 +1,4 @@
-# Text classification with Tensorflow
+# Review classification with Tensorflow
 
 Getting useful information from source text can be time-consuming.
 However, thanks to NLP (Natural Language Processing) and machine learning, text analysis can be made much easier!
